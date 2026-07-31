@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+.angular/
+vendor/
+
+# Go Build Output
+backend/server
+backend/minerva-backend
+
+# Angular Build Output
+frontend/dist/
+frontend/out/
+
+# Database & Downloads (Do not commit large binaries)
+backend/data/
+backend/books/
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
